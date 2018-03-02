@@ -1,0 +1,12 @@
+./a.out 1> datos.txt
+me manda los resultados del programa a un archivo en vez de mandarlo a la terminal
+
+
+cat <filename>
+muestra el contenido de un archivo en la terminal
+
+
+./a.out 1> datos.txt 2> error.txt
+manda la salida entandar a un archivo y el error estandar a otro archivo
+
+

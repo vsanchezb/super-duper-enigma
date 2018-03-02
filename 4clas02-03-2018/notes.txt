@@ -1,0 +1,28 @@
+c++11: para activarlo se escribe
+g++ -std=c++11
+
+
+para iniciar gnuplot se escribe
+gnuplot
+
+para graficar con puntos se escribe
+plot "{filename}" w p
+     		(with points)
+		  w l
+		(with lines)
+		
+para salir de gnuplot ctrl d
+
+una vez abierta una grafica de gnuplot si se presiona la tecla l la escala se convierte en logaritmica y a para autoscape
+
+set xlabel "x"
+set ylabel "sen(x)"
+set term pdf 
+set output "{filename}"
+
+
+
+set term determina el tipo de archivo al que se va a mandar la grafica tipos vectoriales como pdf son mucho mejor que pixelados como jpg
+
+
+los corchetes determinan el alcance de las variables, en diferentes funciones para diferenciar las variables en c++ se pide la direccion de la memoria en la ram

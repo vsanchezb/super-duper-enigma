@@ -1,0 +1,18 @@
+para double no tiene sentido usar if(x==y) o 0.1==x pues .... en cambio usar if (|x-y|<eps)
+
+si se van a usar fracciones no usar 1/2, porque eso se reconoce como entero y el resultado es 0, para arreglarlo usar (1.0)/2.
+
+copiar en la terminal cp {rutavieja} {rutanueva}
+cortar en la terminal mv {rutavieja} {rutanueva}
+
+Funciones
+si una linea de codigo se repite en un codigo, entonces deberia se una funcion
+
+detro de main se deberian iniciar funciones y no operaciones, para asi tener mayor control en las diferectes partes del codigo
+
+returntype functionname (type1 var1, type2 var2,...)
+{
+argumento
+
+return el valor deseado
+}
