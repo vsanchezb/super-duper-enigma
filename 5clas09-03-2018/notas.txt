@@ -1,0 +1,7 @@
+las funciones declaran en un principio con ; y se definen despues de main?
+
+cuando se hagan simulaciones fisicas se debe normalizar las unidades ya que el 50% de los numeros estan entre -1 y 1
+
+TAREA: como normalizar
+
+extrapolacion de Richardson
