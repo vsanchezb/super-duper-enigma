@@ -1,0 +1,8 @@
+todos los bucles tienen la estructura basica del for
+for(condicion de inicio;condicion de repeticion;cambio)
+
+break es el comando para salirse de un ciclo
+continue es el comando para saltarse las siguientes instrucciones
+del loop y ejecutar el cambio
+
+swicht es para comparar enteros
