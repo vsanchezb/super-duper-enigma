@@ -1,0 +1,2 @@
+para dar rango en gnuplot
+plot [:][:]f(x)

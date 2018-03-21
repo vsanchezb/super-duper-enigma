@@ -38,3 +38,8 @@ double trapeciorichardson(fncptr fun, double a,double b, int n)
   result=(4*trapecio(fun ,a ,b ,2*n)-trapecio(fun ,a ,b ,n))/3;
   return result;
 }
+double simpson(fncptr fun, double a,double b, int n)
+{
+
+}
+
