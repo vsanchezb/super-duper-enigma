@@ -1,7 +1,7 @@
 #include <fstream> // para manejar archivos
 #include <iostream> 
 
-void printnumbers(int max);
+void printnumbers(int max);//escribe en un archivo los numeros hasta el introducido
 
 int main()
 {

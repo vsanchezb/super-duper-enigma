@@ -15,12 +15,13 @@ void read(std::string name)
   int n, suman=0;
   double x, sumax=0;
   std::ifstream fin(name);
-  while(fin)
+  while(fin);
     {
-      fin >> n>> x;
       suman+=n;
       sumax+=x;
+      fin >> n>> x;
     }
+ 
   std::cout<< suman << "\t"<<sumax<<"\n";
   fin.close();
 }
