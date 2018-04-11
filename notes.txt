@@ -1,0 +1,25 @@
+-practice:
+
+
+
+-
+*built in
+       int data[1000]; //crea en la memodria espacio para 1000 enteros de manera contigua
+       
+       data[7]=20; //el indice del arreglo empieza en 0
+
+*array (c++11)
+       std::array<int,1000> data;
+       
+       data[7]=20;
+
+*vectors
+	std::vector<int> data;
+	data.resize (1000);
+	data[7]=20;
+	
+data.push_back(...); // va aumentando el tamaño en la memoria a medida que se van ingresando datos en el vector
+
+
+arrays y data usan memoria en el stack, mientras que vectors puede usar memoria en heap
+el heap esta en la memoria dinamica, para usar la memoria 
