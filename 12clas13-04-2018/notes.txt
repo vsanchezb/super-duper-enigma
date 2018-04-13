@@ -1,0 +1,27 @@
+
+			matrices
+*datos contiguos en la memoria para que el cpu pueda usar el cache de la manera dmas eficientes
+
+*por que la resta genera incertidumbre?
+
+*para recorrer los datos de una matriz de manera eficiente en c++, debe hacerse por filas, mientras que en fortran es por columnas
+
+-aritmetica de apuntadores
+	    depende de el tipo de datos
+
+-arr.cpp es arreglos  de matrices bidimensionales y arrf.cpp es lo mismo pero de manera unidimensional, con la que se pueden usar vectors
+
+
+
+	    	      	 punteros
+
+Def: un puntero guarda direcciones de memoria
+para que una vaiable sea definida como puntero
+     int a = 10;
+     int * ptr = & a;
+&a es la direccion de a
+
+
+
+
+next memoria dinamica
