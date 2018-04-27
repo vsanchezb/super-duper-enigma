@@ -1,0 +1,4 @@
+Librerias de algebra lineal
+*para alto desempeño en procesador intel existe  la libreria mkl, para amd existe la acl
+      
+

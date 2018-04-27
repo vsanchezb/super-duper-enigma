@@ -1,0 +1,6 @@
+Librerias de algebra lineal
+*para alto desempeño en procesador intel existe  la libreria mkl, para amd existe la acl
+*gsl gnu scientific library
+* la bandera -L(ruta) cuando el compilador no encuentra una libreria, -I(...) para Eigne
+      
+
